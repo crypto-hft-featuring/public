@@ -1,0 +1,69 @@
+{
+    "symbols": [
+        {
+            "images": [
+                {
+                    "symbol": "ADAUSDT",
+                    "type": "correlation_heatmap",
+                    "path": "technical_indicators/20250628_184119_ADAUSDT_1.png"
+                }
+            ],
+            "data_info": {
+                "days_processed": 4,
+                "total_rows": 0,
+                "total_features": 6
+            },
+            "analysis_status": "completed",
+            "correlations": [
+                {
+                    "rank": 1,
+                    "is_significant": false,
+                    "correlation": 0.0,
+                    "feature": "rsi_14periods",
+                    "abs_correlation": 0.0,
+                    "p_value": 1.0,
+                    "significance_level": ""
+                },
+                {
+                    "rank": 2,
+                    "is_significant": false,
+                    "correlation": 0.0,
+                    "feature": "macd_signal",
+                    "abs_correlation": 0.0,
+                    "p_value": 1.0,
+                    "significance_level": ""
+                },
+                {
+                    "rank": 3,
+                    "is_significant": false,
+                    "correlation": 0.0,
+                    "feature": "bollinger_bands_position",
+                    "abs_correlation": 0.0,
+                    "p_value": 1.0,
+                    "significance_level": ""
+                }
+            ],
+            "symbol": "ADAUSDT",
+            "date_range": {
+                "start": 20230313,
+                "end": 20230316
+            }
+        }
+    ],
+    "metadata": {
+        "output_directory": "/Users/bjm/project/250602_crypto_hft_featuring/eda_public/technical_indicators",
+        "script_name": "script.jl",
+        "parameters": {
+            "macd_fast": 12,
+            "bollinger_std": 2.0,
+            "macd_slow": 26,
+            "rsi_period": 14,
+            "macd_signal": 9,
+            "bollinger_period": 20
+        },
+        "execution_time": "2025-06-28 18:41:19",
+        "analysis_type": "technical_indicators_correlation",
+        "data_path": "/Users/bjm/data/features",
+        "script_folder": "technical_indicators"
+    }
+}
