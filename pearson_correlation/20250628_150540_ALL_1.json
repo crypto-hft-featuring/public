@@ -1,0 +1,346 @@
+{
+    "symbols": [
+        {
+            "images": [
+                {
+                    "symbol": "XRPUSDT",
+                    "type": "correlation_heatmap",
+                    "path": "pearson_correlation/20250628_150540_XRPUSDT_1.png"
+                }
+            ],
+            "data_info": {
+                "days_processed": 1,
+                "total_rows": 86382,
+                "total_features": 55
+            },
+            "analysis_status": "completed",
+            "correlations": [
+                {
+                    "rank": 1,
+                    "correlation": 0.999,
+                    "feature": "WAP_Lag_300ms",
+                    "abs_correlation": 0.999
+                },
+                {
+                    "rank": 2,
+                    "correlation": 0.999,
+                    "feature": "WAP_Lag_200ms",
+                    "abs_correlation": 0.999
+                },
+                {
+                    "rank": 3,
+                    "correlation": 0.999,
+                    "feature": "WAP_Lag_100ms",
+                    "abs_correlation": 0.999
+                },
+                {
+                    "rank": 4,
+                    "correlation": -0.315,
+                    "feature": "AggQtyByBP_Ask_3.0bp",
+                    "abs_correlation": 0.315
+                },
+                {
+                    "rank": 5,
+                    "correlation": 0.2813,
+                    "feature": "AggQtyByBP_Ask_30.0bp",
+                    "abs_correlation": 0.2813
+                },
+                {
+                    "rank": 6,
+                    "correlation": -0.2662,
+                    "feature": "AggQtyByBP_Ask_10.0bp",
+                    "abs_correlation": 0.2662
+                },
+                {
+                    "rank": 7,
+                    "correlation": -0.2588,
+                    "feature": "AggQtyByBP_Bid_50.0bp",
+                    "abs_correlation": 0.2588
+                },
+                {
+                    "rank": 8,
+                    "correlation": -0.1913,
+                    "feature": "AggQtyByBP_Ask_50.0bp",
+                    "abs_correlation": 0.1913
+                },
+                {
+                    "rank": 9,
+                    "correlation": 0.1702,
+                    "feature": "AggQtyByBP_Ask_100.0bp",
+                    "abs_correlation": 0.1702
+                },
+                {
+                    "rank": 10,
+                    "correlation": -0.1559,
+                    "feature": "AggQtyByBP_Ask_1.0bp",
+                    "abs_correlation": 0.1559
+                },
+                {
+                    "rank": 11,
+                    "correlation": 0.1543,
+                    "feature": "AggQtyByBP_Bid_30.0bp",
+                    "abs_correlation": 0.1543
+                },
+                {
+                    "rank": 12,
+                    "correlation": -0.1308,
+                    "feature": "AggQtyByBP_Ask_20.0bp",
+                    "abs_correlation": 0.1308
+                },
+                {
+                    "rank": 13,
+                    "correlation": -0.1165,
+                    "feature": "AggQtyByBP_Ask_15.0bp",
+                    "abs_correlation": 0.1165
+                },
+                {
+                    "rank": 14,
+                    "correlation": -0.1053,
+                    "feature": "ask_cancel_qty_sum",
+                    "abs_correlation": 0.1053
+                },
+                {
+                    "rank": 15,
+                    "correlation": -0.1045,
+                    "feature": "ask_place_qty_sum",
+                    "abs_correlation": 0.1045
+                },
+                {
+                    "rank": 16,
+                    "correlation": -0.0758,
+                    "feature": "AggQtyByBP_Bid_20.0bp",
+                    "abs_correlation": 0.0758
+                },
+                {
+                    "rank": 17,
+                    "correlation": -0.0719,
+                    "feature": "ask_place_count",
+                    "abs_correlation": 0.0719
+                },
+                {
+                    "rank": 18,
+                    "correlation": -0.0718,
+                    "feature": "ask_cancel_count",
+                    "abs_correlation": 0.0718
+                },
+                {
+                    "rank": 19,
+                    "correlation": 0.0715,
+                    "feature": "bid_cancel_count",
+                    "abs_correlation": 0.0715
+                },
+                {
+                    "rank": 20,
+                    "correlation": -0.0662,
+                    "feature": "bid_place_acc_distance_bp",
+                    "abs_correlation": 0.0662
+                },
+                {
+                    "rank": 21,
+                    "correlation": -0.0646,
+                    "feature": "AggQtyByBP_Bid_15.0bp",
+                    "abs_correlation": 0.0646
+                },
+                {
+                    "rank": 22,
+                    "correlation": 0.062,
+                    "feature": "bid_place_count",
+                    "abs_correlation": 0.062
+                },
+                {
+                    "rank": 23,
+                    "correlation": -0.0561,
+                    "feature": "cancel_count",
+                    "abs_correlation": 0.0561
+                },
+                {
+                    "rank": 24,
+                    "correlation": -0.0529,
+                    "feature": "bid_place_acc_distance",
+                    "abs_correlation": 0.0529
+                },
+                {
+                    "rank": 25,
+                    "correlation": -0.0379,
+                    "feature": "AggQtyByBP_Bid_10.0bp",
+                    "abs_correlation": 0.0379
+                },
+                {
+                    "rank": 26,
+                    "correlation": 0.0334,
+                    "feature": "bid_cancel_acc_distance",
+                    "abs_correlation": 0.0334
+                },
+                {
+                    "rank": 27,
+                    "correlation": -0.0299,
+                    "feature": "AggQtyByBP_Bid_3.0bp",
+                    "abs_correlation": 0.0299
+                },
+                {
+                    "rank": 28,
+                    "correlation": -0.0295,
+                    "feature": "AggQtyByBP_Bid_1.0bp",
+                    "abs_correlation": 0.0295
+                },
+                {
+                    "rank": 29,
+                    "correlation": -0.0282,
+                    "feature": "TickFlow_total_volume",
+                    "abs_correlation": 0.0282
+                },
+                {
+                    "rank": 30,
+                    "correlation": 0.028,
+                    "feature": "bid_cancel_acc_distance_bp",
+                    "abs_correlation": 0.028
+                },
+                {
+                    "rank": 31,
+                    "correlation": -0.025,
+                    "feature": "TickFlow_sell_volume",
+                    "abs_correlation": 0.025
+                },
+                {
+                    "rank": 32,
+                    "correlation": -0.0222,
+                    "feature": "TickFlow_total_money_volume",
+                    "abs_correlation": 0.0222
+                },
+                {
+                    "rank": 33,
+                    "correlation": -0.0204,
+                    "feature": "TickFlow_sell_money_volume",
+                    "abs_correlation": 0.0204
+                },
+                {
+                    "rank": 34,
+                    "correlation": 0.0189,
+                    "feature": "place_count",
+                    "abs_correlation": 0.0189
+                },
+                {
+                    "rank": 35,
+                    "correlation": -0.0187,
+                    "feature": "TickFlow_buy_volume",
+                    "abs_correlation": 0.0187
+                },
+                {
+                    "rank": 36,
+                    "correlation": 0.0171,
+                    "feature": "TickFlow_buy_count",
+                    "abs_correlation": 0.0171
+                },
+                {
+                    "rank": 37,
+                    "correlation": 0.0141,
+                    "feature": "Random_1Min",
+                    "abs_correlation": 0.0141
+                },
+                {
+                    "rank": 38,
+                    "correlation": -0.0138,
+                    "feature": "TickFlow_buy_money_volume",
+                    "abs_correlation": 0.0138
+                },
+                {
+                    "rank": 39,
+                    "correlation": 0.0137,
+                    "feature": "ask_cancel_acc_distance",
+                    "abs_correlation": 0.0137
+                },
+                {
+                    "rank": 40,
+                    "correlation": -0.0114,
+                    "feature": "TickFlow_sell_count",
+                    "abs_correlation": 0.0114
+                },
+                {
+                    "rank": 41,
+                    "correlation": 0.0114,
+                    "feature": "AggQtyByBP_Bid_100.0bp",
+                    "abs_correlation": 0.0114
+                },
+                {
+                    "rank": 42,
+                    "correlation": 0.0104,
+                    "feature": "ask_cancel_acc_distance_bp",
+                    "abs_correlation": 0.0104
+                },
+                {
+                    "rank": 43,
+                    "correlation": -0.005,
+                    "feature": "bid_cancel_qty_sum",
+                    "abs_correlation": 0.005
+                },
+                {
+                    "rank": 44,
+                    "correlation": 0.0042,
+                    "feature": "ask_place_acc_distance",
+                    "abs_correlation": 0.0042
+                },
+                {
+                    "rank": 45,
+                    "correlation": 0.0039,
+                    "feature": "ask_place_acc_distance_bp",
+                    "abs_correlation": 0.0039
+                },
+                {
+                    "rank": 46,
+                    "correlation": 0.0017,
+                    "feature": "TickFlow_total_count",
+                    "abs_correlation": 0.0017
+                },
+                {
+                    "rank": 47,
+                    "correlation": -0.0006,
+                    "feature": "order_flow_count",
+                    "abs_correlation": 0.0006
+                },
+                {
+                    "rank": 48,
+                    "correlation": 0.0,
+                    "feature": "bid_place_qty_sum",
+                    "abs_correlation": 0.0
+                },
+                {
+                    "rank": 49,
+                    "correlation": 0.0,
+                    "feature": "AggQtyByBP_Bid_2.0bp",
+                    "abs_correlation": 0.0
+                },
+                {
+                    "rank": 50,
+                    "correlation": 0.0,
+                    "feature": "AggQtyByBP_Ask_2.0bp",
+                    "abs_correlation": 0.0
+                },
+                {
+                    "rank": 51,
+                    "correlation": 0.0,
+                    "feature": "AggQtyByBP_Bid_5.0bp",
+                    "abs_correlation": 0.0
+                },
+                {
+                    "rank": 52,
+                    "correlation": 0.0,
+                    "feature": "AggQtyByBP_Ask_5.0bp",
+                    "abs_correlation": 0.0
+                }
+            ],
+            "symbol": "XRPUSDT",
+            "date_range": {
+                "start": 20230313,
+                "end": 20230313
+            }
+        }
+    ],
+    "metadata": {
+        "output_directory": "/Users/bjm/project/250602_crypto_hft_featuring/eda_public/pearson_correlation",
+        "script_name": "script.jl",
+        "execution_time": "2025-06-28 15:05:40",
+        "analysis_type": "correlation_heatmap",
+        "data_path": "/Users/bjm/data/features",
+        "script_folder": "pearson_correlation"
+    }
+}
