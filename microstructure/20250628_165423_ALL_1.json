@@ -1,0 +1,44 @@
+{
+    "symbols": [
+        {
+            "images": [
+                {
+                    "symbol": "BTCUSDT",
+                    "type": "correlation_heatmap",
+                    "path": "microstructure/20250628_165423_BTCUSDT_1.png"
+                }
+            ],
+            "data_info": {
+                "days_processed": 1,
+                "total_rows": 86325,
+                "total_features": 4
+            },
+            "analysis_status": "completed",
+            "correlations": [
+                {
+                    "rank": 1,
+                    "correlation": 0.0046,
+                    "feature": "effective_spread_1min",
+                    "abs_correlation": 0.0046
+                }
+            ],
+            "symbol": "BTCUSDT",
+            "date_range": {
+                "start": 20230313,
+                "end": 20230313
+            }
+        }
+    ],
+    "metadata": {
+        "output_directory": "/Users/bjm/project/250602_crypto_hft_featuring/eda_public/microstructure",
+        "script_name": "script.jl",
+        "execution_time": "2025-06-28 16:54:23",
+        "analysis_type": "microstructure_features_correlation",
+        "data_path": "/Users/bjm/data/features",
+        "windows": {
+            "5min": 300,
+            "1min": 60
+        },
+        "script_folder": "microstructure"
+    }
+}
