@@ -1,0 +1,92 @@
+{
+    "symbols": [
+        {
+            "images": [
+                {
+                    "symbol": "ADAUSDT",
+                    "type": "correlation_heatmap",
+                    "path": "rolling_stats/20250628_181211_ADAUSDT_1.png"
+                }
+            ],
+            "data_info": {
+                "days_processed": 1,
+                "total_rows": 86084,
+                "total_features": 9
+            },
+            "analysis_status": "completed",
+            "correlations": [
+                {
+                    "rank": 1,
+                    "is_significant": true,
+                    "correlation": 0.9975,
+                    "feature": "WAP_rolling_mean_1min",
+                    "abs_correlation": 0.9975,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 2,
+                    "is_significant": true,
+                    "correlation": 0.9922,
+                    "feature": "WAP_rolling_mean_5min",
+                    "abs_correlation": 0.9922,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 3,
+                    "is_significant": true,
+                    "correlation": -0.0434,
+                    "feature": "WAP_rolling_skew_5min",
+                    "abs_correlation": 0.0434,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 4,
+                    "is_significant": true,
+                    "correlation": 0.0251,
+                    "feature": "WAP_rolling_kurt_5min",
+                    "abs_correlation": 0.0251,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 5,
+                    "is_significant": true,
+                    "correlation": 0.0137,
+                    "feature": "WAP_rolling_std_5min",
+                    "abs_correlation": 0.0137,
+                    "p_value": 5.5e-5,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 6,
+                    "is_significant": true,
+                    "correlation": -0.0083,
+                    "feature": "WAP_rolling_std_1min",
+                    "abs_correlation": 0.0083,
+                    "p_value": 0.014414,
+                    "significance_level": "*"
+                }
+            ],
+            "symbol": "ADAUSDT",
+            "date_range": {
+                "start": 20230313,
+                "end": 20230313
+            }
+        }
+    ],
+    "metadata": {
+        "output_directory": "/Users/bjm/project/250602_crypto_hft_featuring/eda_public/rolling_stats",
+        "script_name": "script.jl",
+        "execution_time": "2025-06-28 18:12:11",
+        "analysis_type": "rolling_statistics_correlation",
+        "data_path": "/Users/bjm/data/features",
+        "windows": {
+            "5min": 300,
+            "1min": 60
+        },
+        "script_folder": "rolling_stats"
+    }
+}

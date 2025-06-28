@@ -1,0 +1,31 @@
+{
+    "symbols": [
+        {
+            "images": [],
+            "data_info": {
+                "days_processed": 1,
+                "total_rows": 86383,
+                "total_features": 3
+            },
+            "analysis_status": "completed",
+            "correlations": [],
+            "symbol": "BTCUSDT",
+            "date_range": {
+                "start": 20230313,
+                "end": 20230313
+            }
+        }
+    ],
+    "metadata": {
+        "output_directory": "/Users/bjm/project/250602_crypto_hft_featuring/eda_public/interaction_features",
+        "script_name": "script.jl",
+        "execution_time": "2025-06-28 18:14:38",
+        "analysis_type": "interaction_features_correlation",
+        "data_path": "/Users/bjm/data/features",
+        "windows": {
+            "correlation": 300,
+            "ratio": 300
+        },
+        "script_folder": "interaction_features"
+    }
+}

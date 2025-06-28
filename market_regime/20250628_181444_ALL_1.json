@@ -1,0 +1,66 @@
+{
+    "symbols": [
+        {
+            "images": [
+                {
+                    "symbol": "BTCUSDT",
+                    "type": "correlation_heatmap",
+                    "path": "market_regime/20250628_181444_BTCUSDT_1.png"
+                }
+            ],
+            "data_info": {
+                "days_processed": 1,
+                "total_rows": 86075,
+                "total_features": 6
+            },
+            "analysis_status": "completed",
+            "correlations": [
+                {
+                    "rank": 1,
+                    "is_significant": true,
+                    "correlation": -0.0991,
+                    "feature": "market_efficiency",
+                    "abs_correlation": 0.0991,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 2,
+                    "is_significant": true,
+                    "correlation": 0.0463,
+                    "feature": "trend_strength",
+                    "abs_correlation": 0.0463,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 3,
+                    "is_significant": false,
+                    "correlation": 0.0018,
+                    "feature": "volatility_regime",
+                    "abs_correlation": 0.0018,
+                    "p_value": 0.606067,
+                    "significance_level": ""
+                }
+            ],
+            "symbol": "BTCUSDT",
+            "date_range": {
+                "start": 20230313,
+                "end": 20230313
+            }
+        }
+    ],
+    "metadata": {
+        "output_directory": "/Users/bjm/project/250602_crypto_hft_featuring/eda_public/market_regime",
+        "script_name": "script.jl",
+        "execution_time": "2025-06-28 18:14:44",
+        "analysis_type": "market_regime_features_correlation",
+        "data_path": "/Users/bjm/data/features",
+        "windows": {
+            "volatility_regime": 300,
+            "market_efficiency": 300,
+            "trend_strength": 300
+        },
+        "script_folder": "market_regime"
+    }
+}

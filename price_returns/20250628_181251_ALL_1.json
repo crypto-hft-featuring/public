@@ -1,0 +1,93 @@
+{
+    "symbols": [
+        {
+            "images": [
+                {
+                    "symbol": "ADAUSDT",
+                    "type": "correlation_heatmap",
+                    "path": "price_returns/20250628_181251_ADAUSDT_1.png"
+                }
+            ],
+            "data_info": {
+                "days_processed": 1,
+                "total_rows": 85483,
+                "total_features": 9
+            },
+            "analysis_status": "completed",
+            "correlations": [
+                {
+                    "rank": 1,
+                    "is_significant": true,
+                    "correlation": 0.1299,
+                    "feature": "WAP_return_15min",
+                    "abs_correlation": 0.1299,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 2,
+                    "is_significant": true,
+                    "correlation": 0.0805,
+                    "feature": "WAP_return_5min",
+                    "abs_correlation": 0.0805,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 3,
+                    "is_significant": true,
+                    "correlation": 0.0804,
+                    "feature": "WAP_log_return_5min",
+                    "abs_correlation": 0.0804,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 4,
+                    "is_significant": true,
+                    "correlation": 0.0354,
+                    "feature": "WAP_return_1min",
+                    "abs_correlation": 0.0354,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 5,
+                    "is_significant": true,
+                    "correlation": 0.0354,
+                    "feature": "WAP_log_return_1min",
+                    "abs_correlation": 0.0354,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                },
+                {
+                    "rank": 6,
+                    "is_significant": true,
+                    "correlation": -0.022,
+                    "feature": "WAP_realized_volatility_5min",
+                    "abs_correlation": 0.022,
+                    "p_value": 0.0,
+                    "significance_level": "***"
+                }
+            ],
+            "symbol": "ADAUSDT",
+            "date_range": {
+                "start": 20230313,
+                "end": 20230313
+            }
+        }
+    ],
+    "metadata": {
+        "output_directory": "/Users/bjm/project/250602_crypto_hft_featuring/eda_public/price_returns",
+        "script_name": "script.jl",
+        "execution_time": "2025-06-28 18:12:51",
+        "return_windows": {
+            "5min": 300,
+            "15min": 900,
+            "1min": 60
+        },
+        "analysis_type": "price_returns_correlation",
+        "data_path": "/Users/bjm/data/features",
+        "script_folder": "price_returns"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "symbols": [
+        {
+            "images": [],
+            "data_info": {
+                "days_processed": 1,
+                "total_rows": 86383,
+                "total_features": 3
+            },
+            "analysis_status": "completed",
+            "correlations": [],
+            "symbol": "ADAUSDT",
+            "date_range": {
+                "start": 20230313,
+                "end": 20230313
+            }
+        }
+    ],
+    "metadata": {
+        "output_directory": "/Users/bjm/project/250602_crypto_hft_featuring/eda_public/order_flow_agg",
+        "script_name": "script.jl",
+        "execution_time": "2025-06-28 18:09:23",
+        "aggregation_windows": {
+            "5min": 300,
+            "1min": 60
+        },
+        "analysis_type": "order_flow_aggregations_correlation",
+        "data_path": "/Users/bjm/data/features",
+        "script_folder": "order_flow_agg"
+    }
+}
