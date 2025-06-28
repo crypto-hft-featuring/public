@@ -1,0 +1,45 @@
+{
+    "images": [
+        {
+            "type": "time_series",
+            "path": "data_analysis/20250628_151739_TRXUSDT_1.png"
+        },
+        {
+            "type": "price_difference",
+            "path": "data_analysis/20250628_151739_TRXUSDT_2.png"
+        }
+    ],
+    "correlation_matrix": {
+        "target_wap_15s": {
+            "target_wap_15s": 1.0,
+            "WAP_Lag_0ms": 0.9987
+        },
+        "WAP_Lag_0ms": {
+            "target_wap_15s": 0.9987,
+            "WAP_Lag_0ms": 1.0
+        }
+    },
+    "data_info": {
+        "unique_values": {
+            "target_wap_15s": 84746,
+            "WAP_Lag_0ms": 84746
+        },
+        "total_rows": 86383
+    },
+    "metadata": {
+        "output_directory": "/Users/bjm/project/250602_crypto_hft_featuring/eda_public/data_analysis",
+        "script_name": "data_analysis",
+        "execution_time": "2025-06-28 15:17:44",
+        "symbol": "TRXUSDT",
+        "analysis_type": "wap_correlation_investigation",
+        "date": 20230313
+    },
+    "price_difference_stats": {
+        "zero_count": 0,
+        "max": 0.0007836613736660059,
+        "min": -0.001148433778078814,
+        "zero_percentage": 0.0,
+        "mean": 3.973097804967674e-7,
+        "std": 4.742955904207157e-5
+    }
+}
